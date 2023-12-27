@@ -32,7 +32,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./Bonjour.png');
+  background-image: url('./CV/Bonjour.png');
   background-size: cover;
   background-position: fixed;
   color: black;
