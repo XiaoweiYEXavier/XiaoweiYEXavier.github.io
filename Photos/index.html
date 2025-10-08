@@ -2,11 +2,55 @@
 layout: default
 title: YE Xiaowei
 ---
+
+<style>
+  .memory-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .memory-item {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  .image-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .caption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-top: 8px;
+  }
+  .memory-link {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: color 0.3s;
+  }
+  .memory-link:hover {
+    color: #3498db;
+  }
+</style>
+
 <div class="blurb">
 	<section>
 		<h3>Some memories</h3>
 		<u1>
-	   <li><img src="/Photos/photoatx.jpg" />At École Polytechnique. Photographer: Chen GONG. </li>
+	   <li class="memory-item">
+        <div class="image-container">
+          <img src="/Photos/photoatx.jpg" alt="At École Polytechnique" />
+          <div class="caption">At École Polytechnique. Photographer: Chen GONG.</div>
+        </div>
+      </li>
 	   <li><a href="/Notes/Tropical_Rainforest.pdf" target="blank">Note on tropical surfaces (in French). </a></li>
 	   <li><a href="/Notes/Filtrations_et_Lemme_d_Artin_Rees.pdf" target="blank">Note on filtrations and Artin-Rees lemma (in French). </a></li>
 	   <li><a href="/Notes/Correspondance_déroissante_des_faces.pdf" target="blank">Note on the normal fans of a polytope (in French). </a></li>
